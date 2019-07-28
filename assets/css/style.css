@@ -1,0 +1,161 @@
+/* Austin Fletcher
+   Basic portfolio
+   style.css
+*/
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+
+*{
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1em;
+  line-height: 1.5em;
+  color: #777777;
+  
+/*   background-image: url("../images/background.png"); */
+}
+.clearfix::after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+h1{
+ font-size:1.5em;
+/*  line-height: 3em; */
+}
+  body {
+  background: #4aaaa5;
+  background-image: url("../images/background.png");
+  float: left;
+/*   width: 60em; */
+  
+  }
+
+  header{
+    background-color: #ffffff;
+/*     width: 1000px; */
+    width:100%;
+    position: absolute;
+    top:0px;
+    height: 5em;
+    padding: 3em;
+    margin: 0em 0em 1em;
+    overflow: hidden;
+  }
+  .navBar{
+    width: 60px;
+  }
+
+  .myName{
+    float: left;
+    text-align: center;
+    font-size: 3em;
+    height: auto;
+    width: auto;
+    padding: 0.25em;
+    margin:0 0 0 4.7em;
+    background-color: #4aaaa5;
+    color:#ffffff;
+    margin-top: -1em;
+  }
+ nav{
+    float: right;
+    text-align:center;
+    height: auto;
+    padding: 0 15em;
+/*     background-color: yellow; */
+  }
+.myLinks{
+  margin: 1em .5em;
+  padding: 0;
+  
+}
+  img.myPhoto{
+    /* transform: rotate(-90deg); */
+    float: left;
+    width: 25%;
+    height: 25%;
+    padding: 0;
+    border: 1px solid black;
+    border-radius: 8px;
+  }
+.myBio{
+  position: fixed;
+  top: 25%;
+  left: 18%;
+
+  text-align: center;
+  float: left;
+  width: 60em;
+  padding: 1em 1em;
+  margin: auto;
+  background: #ffffff;
+  border: 1px solid black;
+}
+.myText{
+ margin: 0 1em 0 16em;
+ background: #ffffff;
+
+}
+
+
+footer{
+/* float: left; */
+    width:100%;
+    position:fixed;
+    bottom:0px;
+background-color: #666666;
+border: 1px solid black;
+line-height: auto;
+height: 4em;
+text-align: center;
+}
+
+/* Portfolio */
+.container{
+  text-align: center;
+  position: fixed;
+  top: 14%;
+  left: 15%;
+/*   float: left; */
+  width: 60%;
+  height: auto;
+  padding: 0;
+  margin:0 5%;
+  background: #ffffff;
+  border: 1px solid black;
+
+}
+
+/* Contact me*/
+
+
+form{
+    position: fixed;
+  top: 25%;
+  left: 25%;
+  float: left;
+  width: 50%;
+  height: 60%;
+  padding: 1em 1em;
+  margin: auto;
+  background: #ffffff;
+  border: 1px solid black;
+
+}
+input{
+  border: 1px solid black;
+}
+textarea{
+  border: 1px solid black;
+  width: 75%;
+  height: 8em;
+}
+.contactSendButton{
+  width: 10em;
+  color:black;
+}
